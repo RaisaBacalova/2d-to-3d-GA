@@ -1,17 +1,17 @@
 Imports required:
-  numpy
-  opencv-python
-  PyBresenham
-  bpy
-  jupyter
-  matplotlib
+	numpy
+	opencv-python
+  	PyBresenham
+  	bpy
+  	jupyter
+  	matplotlib
 
 Instructions to run the program
 	- open cmd and navigate to the program location
-  - copy and paste the following into cmd
-    - python
-	  - import evolution
-  - at the next step define the number for the pool size and the number for generations
+  	- copy and paste the following into cmd
+    		- python
+    		- import evolution
+  	- at the next step define the number for the pool size and the number for generations
 		- for example: 
 			- evolution.Evolution(pool size, generations) will look as following:
 			- evolution.Evolution(2,1)
