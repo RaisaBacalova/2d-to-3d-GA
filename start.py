@@ -2,9 +2,6 @@ import bpy
 import sys
 import os 
 
-sys.path.append(
-    "C:\\Users\\Raya\\Documents\\Computer Science\\3. Final\\Project\\myvenv\\Lib\\site-packages")
-
 dir = os.path.dirname(bpy.data.filepath)
 if not dir in sys.path:
     sys.path.append(dir)
